@@ -1,0 +1,12 @@
+<> Presentacion/Home
+html(S) Sobre mi(CV, Skills, Hobbies)
+VS Portafolio
+Contactarme(Formulario, flecha para arriba)
+Temas(Claro/Oscuro)
+
+Color negro oscuro 30,30,30
+color negro claro 45,45,45
+Color blanco claro 255,255,255
+Color blanco oscuro 236,236,236
+
+Idiomas: Español + Ingles
