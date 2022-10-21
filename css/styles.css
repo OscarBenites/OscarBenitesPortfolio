@@ -31,7 +31,8 @@ body{
     transition: 0.5s;
 }
 .container{
-    max-width: 968px;
+    width: 100%;
+    /*max-width: 968px;*/
     margin: auto;
 }
 .section{
@@ -58,7 +59,7 @@ body{
 }
 /* */
 .nav{
-    height: 4.5rem;
+    height: 3.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -98,6 +99,9 @@ i.nav__icon{
     position: relative;
     color: #5b75ad;
     transition: 0.3s;
+}
+#home{
+    background-color: #000;
 }
 @media screen and (max-width: 922px){
     .container{
