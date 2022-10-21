@@ -87,17 +87,6 @@ i.nav__icon{
     color: #5b75ad;
     transition: 0.3s;
 }
-@media screen and (min-width: 768px){
-    .active__link::before{
-        content: "";
-        position: absolute;
-        bottom: -0.4rem;
-        width: 1rem;
-        height: 3px;
-        background-color: #5b75ad;
-        border-radius: 3px;
-    }
-}
 @media screen and (max-width: 922px){
     .container{
         margin-left: 1rem;
@@ -129,8 +118,22 @@ i.nav__icon{
         font-size: 1.5rem;
     }
 }
+@media screen and (min-width: 768px){
+    .active__link::before{
+        content: "";
+        position: absolute;
+        bottom: -0.4rem;
+        width: 1rem;
+        height: 3px;
+        background-color: #5b75ad;
+        border-radius: 3px;
+    }
+}
 @media screen and (max-width: 576px){
     .nav__list{
         justify-content: center;
+    }
+    .nav__name{
+        display: none;
     }
 }
