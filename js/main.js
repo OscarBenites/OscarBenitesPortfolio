@@ -13,11 +13,12 @@ function scrollActive(){
             } else {
                 document.querySelector('.nav__menu a[href*='+sectionId+']').classList.remove('active__link');
             }
+            
     });
 }
 
 window.addEventListener('scroll', scrollActive);
-
+// Theme
 const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 const slider = document.getElementById('btheme');
 

@@ -107,6 +107,7 @@ i.nav__icon{
 }
 @media screen and (max-width: 768px){
     .nav__menu{
+        background-color: var(--barbackground);
         position: fixed;
         bottom: 0;
         left: 0;
@@ -117,7 +118,7 @@ i.nav__icon{
         align-content: center;
         border-radius: 1.25rem 1.25rem 0 0;
         transition: .4s;
-        box-shadow: 0 -1px 12px rgba(59,59,59, 0.25)
+        box-shadow: 0 -1px 12px rgba(59,59,59, 0.25);
     }
     .nav{
         height: 3rem;
