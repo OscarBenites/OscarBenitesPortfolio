@@ -64,7 +64,7 @@ body{
 }
 /* */
 .nav{
-    height: 3.5rem;
+    height: 4.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -106,11 +106,11 @@ i.nav__icon{
     transition: 0.3s;
 }
 #home{
-    background-color:  var(--console);
+    background-color: var(--console);
 }
 @media screen and (max-width: 922px){
     .container{
-        margin-left: 1rem;
+        /*margin-left: 0rem;*/
         margin-right: 1rem;
     }
 }
