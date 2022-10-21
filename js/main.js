@@ -21,10 +21,16 @@ window.addEventListener('scroll', scrollActive);
 // Theme
 const preferedColorScheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 const slider = document.getElementById('btheme');
+const icono = document.getElementById('iconetheme');
 
 const setTheme = (theme) => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
+    if(localStorage.getItem('theme') === 'dark'){
+        icono.classList.replace('bx-sun','bx-moon');
+    } else {
+        icono.classList.replace('bx-moon','bx-sun');
+    }
 }
 
 slider.addEventListener('click', ()  => {
